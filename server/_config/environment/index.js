@@ -14,6 +14,18 @@ var all = {
   // Server IP
   ip: 'localhost',
 
+  // Should we populate the DB with sample data?
+  seedDB: false,
+  // MongoDB connection options
+  mongo: {
+    uri: 'mongodb://localhost/lvlup',
+    options: {
+      db: {
+        safe: true
+      }
+    }
+  },
+
 };
 
 // Export the config object based on the NODE_ENV
