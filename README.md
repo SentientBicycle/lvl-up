@@ -34,15 +34,9 @@ Install Mongodb
 ###### Running Mongodb
 
 1. Create the data directory.
-```
-	mkdir -p /data/db
-```
+	*  ```mkdir -p /data/db```
 2. Set permissions for the data directory.
-```
-	sudo chmod 0755 /data/db
-	sudo chown mongod:mongod /data/db 
-```
+	*  ```sudo chmod 0755 /data/db```
+	*  ```sudo chown mongod:mongod /data/db```
 3. Run Mongodb
-```
-	mongod
-```
+	*  ```mongod```
