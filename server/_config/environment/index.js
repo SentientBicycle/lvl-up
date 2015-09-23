@@ -18,7 +18,7 @@ var all = {
   seedDB: false,
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/lvlup-dev',
+    uri: 'mongodb://localhost/lvlup',
     options: {
       db: {
         safe: true
