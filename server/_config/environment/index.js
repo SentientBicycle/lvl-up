@@ -15,7 +15,7 @@ var all = {
   ip: 'localhost',
 
   // Should we populate the DB with sample data?
-  seedDB: false,
+  seedDB: true,
   // MongoDB connection options
   mongo: {
     uri: 'mongodb://localhost/lvlup',
