@@ -31,6 +31,14 @@ Install Mongodb
 
 	brew install mongodb
 
+To have launchd start mongodb at login
+
+	ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+	
+Then to load mongodb now:
+
+	launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+
 ###### Running Mongodb
 
 1. Create the data directory.
